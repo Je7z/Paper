@@ -1,0 +1,13 @@
+{
+  "name": "Electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electromon": "^1.0.10",
+    "electron": "^9.0.0"
+  },
+  "scripts": {
+    "dev": "electromon ."
+  }
+}

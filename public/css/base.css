@@ -1,0 +1,113 @@
+body {
+    font-family:'Consolas','Inconsolata', monospace;
+    /* background-color: #3b414d; */
+    height: 100vh;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: none;
+}
+
+.paper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.controllers {
+    background-color: #3b414d;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    color: #DCDFE4;
+}
+
+.controllers {
+    padding: 15px;
+}
+
+.controllers span {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.controllers span:hover {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+.controllers span.active {
+    padding: 0 10px;
+    color: #C678DD;
+}
+
+.controllers span:active {
+    padding: 0 10px;
+    color: #C678DD;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: #3b414d; 
+}
+
+.actions span {
+    padding: 0px 15px;
+    color: #DCDFE4;
+    cursor: pointer;
+    background-color: #3b414d;
+}
+
+.actions span:hover {
+    color: #ffffff;
+}
+
+.editor {
+    height: 100%;
+    background-color: rgb(40, 44, 52);
+    font-size: 14px;
+    padding: 10px;
+    color: #DCDFE4;
+}
+
+.editor ol {
+    margin: 0 25px;
+}
+
+.editor ul {
+    margin: 0 25px;
+}
+
+.pallete {
+    height: 40px;
+    display: flex;
+    background-color: #23252b;
+    padding: 5px 5px;
+}
+
+.pallete span {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 1px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.pallete span.active {
+    border: 2px solid #3b414d;
+}
