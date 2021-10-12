@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "electromon": "^1.0.10",
-    "electron": "^9.0.0"
+    "electron": "^11.5.0"
   },
   "scripts": {
     "dev": "electromon ."
